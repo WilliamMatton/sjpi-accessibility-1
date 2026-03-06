@@ -35,14 +35,6 @@ a {
   text-transform: uppercase;
 }
 
-/* Nästan osynlig text, spegelvänd */
-.hidden-text {
-  display: block;
-  opacity: 0.1;
-  font-size: 50px;
-  transform: rotate(180deg);
-}
-
 /* En behållare med mittjusterad text och en blå transparent bakgrund */
 .container {
   width: 100%;
@@ -133,15 +125,6 @@ a {
   color: white;
   font-size: 40px;
   padding: 30px;
-  cursor: pointer;
-}
-
-/* En knapp med blå bakgrund och vit text */
-.button {
-  display: inline-block;
-  padding: 10px;
-  background-color: blue;
-  color: white;
   cursor: pointer;
 }
 
