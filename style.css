@@ -35,6 +35,14 @@ a {
   text-transform: uppercase;
 }
 
+header {
+  align-items: center;
+  background-color: #3b3b3b;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 /* En behållare med mittjusterad text och en blå transparent bakgrund */
 .container {
   width: 100%;
@@ -64,10 +72,9 @@ a {
 
 /* Navigeringsmeny med mörk bakgrund och jämnt fördelade element */
 .navigation {
-  background-color: #3b3b3b;
   padding: 30px;
   display: flex;
-  justify-content: space-between;
+  gap: 3rem;
   font-size: 40px;
   font-weight: bold;
 }
@@ -105,25 +112,25 @@ a {
   flex-direction: row;
   justify-self: end;
   justify-content: end;
-  width: 50%;
+  max-height: 4rem;
+  margin: 0 2rem;
   background: #ffffff00; /* Genomskinlig bakgrund */
 }
 
-/* Inputfält med röd text och svart ram */
+/* Inputfält med svart text och svart ram */
 .input-container input {
-  font-size: 30px;
-  padding: 20px;
-  border: 5px solid black;
+  font-size: 2rem;
+  padding: 0.3rem;
+  border: 0.2rem solid black;
   background-color: rgb(255, 255, 255);
-  color: red;
 }
 
-/* Knapp med rosa kant, mörkröd bakgrund och roterad */
+/* Knapp med rosa kant, mörkröd bakgrund*/
 .input-container button {
-  border: 10px ridge pink;
+  border: 0.2rem ridge pink;
   background-color: darkred;
   color: white;
-  font-size: 40px;
-  padding: 30px;
+  font-size: 2rem;
+  padding: 0.3rem;
   cursor: pointer;
 }
