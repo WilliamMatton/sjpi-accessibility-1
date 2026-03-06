@@ -45,7 +45,7 @@ a {
 }
 
 /* Artikel med prickad orange linje och en radial gradient som bakgrund */
-.article {
+.newsArticle {
   border-bottom: 10px dotted orange;
   margin-bottom: 50px;
   padding-bottom: 50px;
