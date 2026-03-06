@@ -81,14 +81,14 @@ a {
 }
 
 /* Navigeringslänkar */
-.navigation .nav-item a {
+.nav-item {
   color: #ffffff;
   padding: 10px;
   text-decoration: none;
 }
 
 /* Bakgrundsfärg vid hover på navigationslänkar */
-.navigation .nav-item:hover a {
+.nav-item:hover {
   background-color: #acacac40;
 }
 
